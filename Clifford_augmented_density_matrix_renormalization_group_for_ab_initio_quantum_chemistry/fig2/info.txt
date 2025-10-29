@@ -1,0 +1,9 @@
+Each file contains the following columns:
+- Col1: Bond dimension (chi)
+- Col2: 1/chi, used as x-axis
+- Col3: Ground state energy obtained using CA-DMRG
+- Col4: Absolute error calculated as |Col3 - FCI energy|, painted red in figures 
+- Col5: Ground state energy obtained using DMRG
+- Col6: Absolute error calculated as |Col5 - FCI energy|, painted blue in figures
+FCI energy is indicated in the first header row in each file.
+All energies are in unit Hartree. Errors invisible from the axis range are left blank (as --) for ease in creating figures.

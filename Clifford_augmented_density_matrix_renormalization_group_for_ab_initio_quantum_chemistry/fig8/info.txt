@@ -1,0 +1,13 @@
+The two files are in format same as fig2 and fig 7.
+File NH3-neq.dat contains the following columns:
+- Col1: Bond dimension (chi)
+- Col2: 1/chi, used as x-axis
+- Col3: Ground state energy obtained using CA-DMRG
+- Col4: Absolute error calculated as |Col3 - FCI energy|, painted red in figures 
+- Col5: Ground state energy obtained using DMRG
+- Col6: Absolute error calculated as |Col5 - FCI energy|, painted blue in figures
+FCI energy is indicated in the first header row in the file. All energies are in unit Hartree.
+File NH3-neq-gates.dat contains the following columns:
+- Col1: Place of the gate, indicated by the index of the left site
+- Col2: Index of optimization steps; the Y-axis index labeled "Sweep" is calculated by step/(2*n_sites-4)
+- Col3: Rank of the gate

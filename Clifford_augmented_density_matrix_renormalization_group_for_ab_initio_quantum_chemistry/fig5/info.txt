@@ -1,0 +1,5 @@
+Each file contains the following columns:
+- Col1: Number of sweeps
+- Col2: The error in energy |E(CA-DMRG) - E(FCI)|
+- Col3: The error in energy |E(DMRG) - E(FCI)|
+All energies are in unit Hartree. Errors invisible from the axis range are left blank (as --) for ease in creating figures.

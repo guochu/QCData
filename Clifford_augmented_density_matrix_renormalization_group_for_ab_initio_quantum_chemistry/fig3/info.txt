@@ -1,0 +1,10 @@
+The file contains the following columns:
+- Col1: Relative bond length (a/a0). This used as the x-axis, where we multiplied it by 1.112 Angstrom to show the real nuclear separation
+- Col2: Ground state energy obtained using CA-DMRG with bond dimension 60
+- Col3: Ground state energy obtained using CA-DMRG with bond dimension 80
+- Col4: Ground state energy obtained using DMRG with bond dimension 60
+- Col5: Ground state energy obtained using DMRG with bond dimension 80
+- Col6 - Col9: Absolute error calculated as |E - E(FCI) energy|, for the energies in Col2 - Col5. This is plotted as the inset.
+- Col10: FCI energies for reference
+- Col11: RHF energies for comparison
+All energies are in unit Hartree.

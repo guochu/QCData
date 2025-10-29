@@ -1,0 +1,5 @@
+Each file contains the following columns:
+- Col1: Place of the gate, indicated by the index of the left site
+- Col2: Index of optimization steps; the Y-axis index labeled "Sweep" is calculated by step/(2*n_sites-4)
+- Col3: Rank of the gate, 1 means only single-qubit gates, 2 means containing a CNOT gate, 4 means containing iSWAP or SWAP gate
+For example, entry "7 43 4 " (in H2O.dat) means "In the 43th optimization step (which is in the 2nd sweep), when working on bond 7-8, we added a Clifford containing iSWAP or SWAP"

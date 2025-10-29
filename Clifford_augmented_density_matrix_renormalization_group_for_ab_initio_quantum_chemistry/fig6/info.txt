@@ -1,0 +1,3 @@
+Each file contains the following columns:
+- Col1: Iteration (number of full sweeps), 0 indicates the initial canonicalized Hamiltonian 
+- Col2: Max Hamiltonian bond dimension after the corresponding sweep

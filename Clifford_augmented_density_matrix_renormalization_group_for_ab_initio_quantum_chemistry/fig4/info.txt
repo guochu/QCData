@@ -1,0 +1,7 @@
+The file contains the following columns:
+- Col1: Bond dimension (chi)
+- Col2: 1/chi, used as x-axis
+- Col3: Time per sweep obtained using CA-DMRG for C2 molecule in STO-3G basis, averaged in the first 50 sweeps.
+- Col4: Time per sweep obtained using DMRG for C2 molecule in STO-3G basis, averaged in the first 50 sweeps.
+- Col5: t(CA-DMRG)/t(DMRG), plotted in the inset
+All times are in unit Second.
